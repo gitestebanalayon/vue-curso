@@ -1,6 +1,8 @@
-import { createRouter, createWebHistory } from 'vue-router'
+/*-------------------------PASO 1-------------------------*/
+import { createRouter, createWebHistory } from 'vue-router' 
 import HomeView from '../views/HomeView.vue'
 
+/*-------------------------PASO 2-------------------------*/
 const router = createRouter({
   history: createWebHistory(),
   routes: [
@@ -20,4 +22,5 @@ const router = createRouter({
   ]
 })
 
+/*-------------------------PASO 3-------------------------*/
 export default router
