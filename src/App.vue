@@ -1,27 +1,13 @@
-<script setup>
-import { RouterLink, RouterView } from 'vue-router'
-</script>
-
 <template>
-  <header>
-    <div>
-      <nav>
-        <ul>
-          <li>
-            <RouterLink to="/">Home</RouterLink>
-          </li>
-          <li>
-            <RouterLink to="/about">About</RouterLink>
-          </li>
-        </ul>
-      </nav>
-    </div>
-  </header>
-
-  <!--colocamos el router view, se puede colocar donde sea-->
-  <RouterView />
+  <PostList/>
 </template>
 
-<style scoped>
+<script setup>
+  import PostList from './components/PostList.vue'
+</script>
 
+<style scoped>
+  #app{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
 </style>
