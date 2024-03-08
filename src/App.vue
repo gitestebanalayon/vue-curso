@@ -13,6 +13,12 @@ import { RouterLink, RouterView } from 'vue-router'
           <li>
             <RouterLink to="/about">About</RouterLink>
           </li>
+          <li>
+            <RouterLink to="/section">Section</RouterLink>
+          </li>
+          <li>
+            <RouterLink to="/contact">Contact</RouterLink>
+          </li>
         </ul>
       </nav>
     </div>
